@@ -9,7 +9,7 @@ function App() {
     <div className="w-screen h-screen bg-slate-400 flex items-center justify-center bganimate">
       <Confetti />
       <div className="w-1/2 h-1/2 flex flex-col gap-10 p-10 justify-center items-center">
-        <img src="/public/wuwalogo.png" alt="wuwalogo" className="w-1/2 " />
+        <img src="/wuwalogo.png" alt="wuwalogo" className="w-1/2 " />
         <h2 className="font-bold text-white text-2xl">Countdown</h2>
         <Timer />
         <div className="flex gap-4">
@@ -18,7 +18,7 @@ function App() {
           </ul>
         </div>
         <div className="flex gap-4">
-          <img className="w-4" src="/public/twitter-svgrepo-com.svg" alt="twit" />
+          <img className="w-4" src="/twitter-svgrepo-com.svg" alt="twit" />
           <h1>@eveneve4u</h1>
         </div>
       </div>
